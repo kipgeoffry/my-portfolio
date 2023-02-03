@@ -2,13 +2,13 @@
 ## Project Name
 Kip Geoffry Portfolio
 
-[Check it out](https://kipgeoffry.github.io/week1-idp.)
+[Check it out](https://kipgeoffry.github.io/week1-idp)
 ​
 ## Description.
 This is a detailed portfolio of Kipchumba Geoffry
 ​
 ## Author.
-- Kip Geoffry
+Kip Geoffry
 
 ## Instalation/Setup
 - git clone https://github.com/kipgeoffry/week1-idp.git
