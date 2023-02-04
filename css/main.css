@@ -1,0 +1,26 @@
+
+body{
+    background-color: #f1f1f1;
+    width: 90%; 
+    }
+
+.header-nav {
+    text-align: center;
+    background-color: #fff;
+    font-family: sans-serif;
+    }
+img{
+    float: right;
+    width: 293;
+    height: 254;        
+    }
+.cont-about{
+    margin-left: 40;
+}
+.last-column{
+    width: 350;
+    float: left;
+    margin: 30px;   
+}
+
+
