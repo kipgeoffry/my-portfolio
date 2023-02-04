@@ -5,7 +5,7 @@ Kip Geoffry Portfolio
 [Check it out](https://kipgeoffry.github.io/week1-idp)
 ​
 ## Description.
-This is a detailed portfolio of Kipchumba Geoffry
+This is a detail of my education, sampled work and skills that tells a story about who i am and what i do.
 ​
 ## Author.
 Kip Geoffry
