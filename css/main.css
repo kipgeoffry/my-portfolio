@@ -1,15 +1,27 @@
 
+html{
+    background-image: url(https://wallpapercave.com/wp/wp2885476.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 body{
     background-color: #f1f1f1;
     width: 90%; 
     margin-left: 70px;
-    }
+    padding: 10px;
+        
+}
 
 .header-nav {
     text-align: center;
     background-color: #fff;
     font-family: sans-serif;
+    padding-bottom: 0.1px;
+    padding-top: 0.1px;
+
     }
+
 img{
     float: right;
     width: 293;
@@ -18,12 +30,4 @@ img{
 .cont-about{
     margin-left: 0px;
 }
-.last-column{
-    width: 350;
-    float: left;
-    margin-right: 30px;
-    margin-top: 5px;
-       
-}
-
 
