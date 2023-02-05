@@ -26,7 +26,7 @@ Kip Geoffry
 ​
 ## Copyright & License
 > MIT License 
-Copyright (c) 2022 kip geoffry
+Copyright (c) 2023 kip geoffry
 ​
 ## Contact information
 To collaborate, reach me on email [kipgeoffry@gmail.com]
