@@ -2,7 +2,7 @@
 ## Project Name
 Kip Geoffry Portfolio
 
-[Check it out](https://kipgeoffry.github.io/week1-idp)
+[Check it out](https://kipgeoffry.github.io/my-portfolio)
 ​
 ## Description.
 This is a detail of my education, sampled work and skills that tells a story about who i am and what i do.
@@ -11,7 +11,7 @@ This is a detail of my education, sampled work and skills that tells a story abo
 Kip Geoffry
 
 ## Instalation/Setup
-- git clone https://github.com/kipgeoffry/week1-idp.git
+- git clone https://github.com/kipgeoffry/my-portfolio.git
 - cd to the cloned directory
 - Open the ``index.html`` on your favorite browser.
  
