@@ -17,8 +17,7 @@ body {
 .header-nav {
     text-align: center;
     background-color: #fff;
-    padding-bottom: 0.1px;
-    padding-top: 0.1px;
+    padding: 0.1px;
 }
 
 img {
@@ -42,4 +41,6 @@ em {
 .footer {
     background-color: white;
     text-align: center;
+    height: 40px;
+    padding: 0.1px;
 }
