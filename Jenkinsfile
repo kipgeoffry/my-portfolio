@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('heckout code') {
+    stage('checkout code') {
       steps {
         git(url: 'https://github.com/kipgeoffry/my-portfolio', branch: 'master')
       }
