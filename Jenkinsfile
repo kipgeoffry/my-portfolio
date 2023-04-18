@@ -31,7 +31,7 @@ pipeline {
         }    
         stage('build docker image'){
             steps{
-                sh 'docker build -f my_third_project/Dockerfile . -t kipgeoffry/portfolio:latest'
+                sh 'docker build -f my_portfolio/Dockerfile . -t kipgeoffry/portfolio:latest'
             }
 
         }
