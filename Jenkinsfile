@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'docker-agent-alpine'
+    }
     triggers{
         pollSCM '*/2 * * * *'
     }
@@ -29,9 +31,9 @@ pipeline {
                 }
             }
         }    
-        stage('build docker image'){
+        stage('run docker'){
             steps{
-                sh 'docker build -f my_portfolio/Dockerfile . -t kipgeoffry/portfolio:latest'
+                sh 'docker ps -a'
             }
 
         }
