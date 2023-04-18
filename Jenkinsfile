@@ -3,9 +3,16 @@ pipeline {
         label 'docker-agent-alpine'
         }
     triggers{
-        pollSCM '*/5 * * * *'
+        pollSCM '*/2 * * * *'
     }
+   
     stages {
+        stage('checkout code'){
+            steps{
+                sh 'echo pulling code from Github'
+                git(url:'https://github.com/kipgeoffry/my-portfolio', branch: 'master')
+            }
+        }
         stage('Log') {
             parallel{
                 stage('log'){
@@ -24,7 +31,7 @@ pipeline {
                 }
             }
         }    
-        stage('Build Docker Image'){
+        stage('build docker image'){
             steps{
                 sh 'docker build -f my_third_project/Dockerfile . -t kipgeoffry/portfolio:latest'
             }
