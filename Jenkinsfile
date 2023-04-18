@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('log') {
+      steps {
+        sh 'echo \'Checking if all is well\''
+      }
+    }
+
   }
 }
