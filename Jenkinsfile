@@ -29,9 +29,20 @@ pipeline {
     }
 
     stage('Build') {
-      steps {
-        sh 'echo "The build id is ${BUILD_URL}"'
-        sh 'echo "The build url is $BUILD_URL"'
+      parallel {
+        stage('Build') {
+          steps {
+            sh 'echo "The build id is ${BUILD_URL}"'
+            sh 'echo "The build url is $BUILD_URL"'
+          }
+        }
+
+        stage('build dockee image') {
+          steps {
+            sh 'docker build -f my-portfolio/Dockerfile . -t kipgeoffry/my-portfolio:latest'
+          }
+        }
+
       }
     }
 
