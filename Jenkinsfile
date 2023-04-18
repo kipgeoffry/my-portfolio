@@ -5,7 +5,6 @@ pipeline {
     triggers{
         pollSCM '*/5****'
     }
-    }
     stages {
         stage('Log') {
             parallel{
